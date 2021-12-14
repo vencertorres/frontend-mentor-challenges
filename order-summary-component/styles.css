@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card__title,
+.card__plan-type {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+
+.attribution {
+  font-size: 0.7rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+a:hover {
+  color: hsl(245, 75%, 52%, 0.7);
+  text-decoration: none;
+}
+
+.card {
+  width: 325px;
+  border-radius: 20px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.card__thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+
+.card__content {
+  padding: 25px;
+  text-align: center;
+}
+
+.card__plan-wrapper {
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.card__icon-music {
+  margin-right: 15px;
+}
+
+.card__link-change {
+  margin-left: auto;
+}
+
+.card__btn-proceed {
+  z-index: 1;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 20px 20px rgba(56, 41, 224, 0.2);
+  background-color: hsl(245, 75%, 52%);
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.card__link-cancel a {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.card__btn-proceed:hover {
+  background-color: hsl(245, 75%, 52%, 0.7);
+}
+
+.card__link-cancel a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.card,
+.card__title,
+.card__description,
+.card__plan-wrapper,
+.card__btn-proceed {
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+  }
+
+  .card {
+    width: 425px;
+  }
+
+  .card__content {
+    padding: 40px;
+  }
+}
