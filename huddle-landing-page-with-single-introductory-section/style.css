@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+  --font-color: #ffffff;
+  --ff-heading: "Poppins", sans-serif;
+  --ff-body: "Open Sans", sans-serif;
+}
+
+body {
+  display: grid;
+  gap: 3rem;
+  place-content: center;
+  min-height: 100vh;
+  padding-block: 2rem;
+  background-color: var(--violet);
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: var(--font-color);
+}
+
+.intro {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-family: var(--ff-heading);
+  font-size: 1.5rem;
+}
+
+.lead {
+  margin-bottom: 1.5em;
+  font-family: var(--ff-body);
+}
+
+.btn__sign-up {
+  display: inline-block;
+  padding: 1em 6em;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+  margin: auto;
+  color: var(--violet);
+  font-family: var(--ff-heading);
+  font-size: 0.8rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--soft-magenta);
+}
+
+.btn__sign-up:active {
+  background-color: var(--soft-magenta);
+  color: #ffffff;
+}
+
+.logo {
+  width: 45%;
+}
+
+.illustration-mockups {
+  max-width: 100%;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+
+main {
+  display: grid;
+  gap: 3rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  header {
+    width: 90%;
+  }
+
+  main {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-image: url("images/bg-desktop.svg");
+    background-size: cover;
+  }
+
+  .logo {
+    width: 17%;
+  }
+
+  .btn__sign-up {
+    padding: 1em 4em;
+    font-size: 1rem;
+  }
+
+  main {
+    grid-template-columns: 1.5fr 1fr;
+    text-align: left;
+  }
+
+  footer {
+    width: 95%;
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .intro {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+  }
+}
