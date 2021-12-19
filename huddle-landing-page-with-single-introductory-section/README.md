@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-VMTLunaUD](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-VMTLunaUD)
 - Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/huddle-landing-page-with-single-introductory-section/](https://vencertorres.github.io/frontend-mentor-solutions/huddle-landing-page-with-single-introductory-section/)
 
 ## My process
