@@ -1,0 +1,99 @@
+:root {
+  --color-bg: hsl(185, 75%, 39%);
+  --color-ff-700: hsl(229, 23%, 23%);
+  --color-ff-400: hsl(227, 10%, 46%);
+  --color-border: hsl(0, 0%, 59%);
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 45vw bottom 45vh, left 45vw top 45vh;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+p {
+  color: var(--color-ff-400);
+}
+
+.card__name,
+.card__count {
+  color: var(--color-ff-700);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.card__age {
+  margin-left: 0.5rem;
+}
+
+.card__location {
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.card__count {
+  display: block;
+}
+
+.card__stats--followers,
+.card__stats--likes,
+.card__stats--photos {
+  letter-spacing: 0.1rem;
+  font-size: 0.6rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  margin-top: 5rem;
+  margin-bottom: 0.5rem;
+  margin-inline: auto;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  background-image: url("images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.card__stats {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: thin solid hsl(0, 0%, 59%, 0.3);
+  padding-top: 1.2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
