@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/fylo-data-storage-component/](hhttps://vencertorres.github.io/frontend-mentor-solutions/fylo-data-storage-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/fylo-data-storage-component-Dnw27CFIl](https://www.frontendmentor.io/solutions/fylo-data-storage-component-Dnw27CFIl)
+- Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/fylo-data-storage-component/](https://vencertorres.github.io/frontend-mentor-solutions/fylo-data-storage-component/)
 
 ## My process
 
