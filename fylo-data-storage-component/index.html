@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="" class="logo" />
+      <div class="buttons">
+        <img src="images/icon-document.svg" alt="" />
+        <img src="images/icon-folder.svg" alt="" />
+        <img src="images/icon-upload.svg" alt="" />
+      </div>
+    </header>
+    <main class="storage">
+      <p class="storage__used">
+        You’ve used <span class="storage__used--figure">815 GB</span> of your
+        storage
+      </p>
+      <div class="progress">
+        <div class="progress-bar">
+          <div class="progress-indicator"></div>
+        </div>
+      </div>
+      <p class="storage__available">
+        <span class="storage__available--figure">185</span> GB Left
+      </p>
+      <div class="container">
+        <p class="storage__min">0 GB</p>
+        <p class="storage__max">1000 GB</p>
+      </div>
+    </main>
+  </body>
+</html>
