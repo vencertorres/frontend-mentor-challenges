@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/clipboard-landing-page-FqA2tEhnv](https://www.frontendmentor.io/solutions/clipboard-landing-page-FqA2tEhnv)
 - Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/clipboard-landing-page/](https://vencertorres.github.io/frontend-mentor-solutions/clipboard-landing-page/)
 
 ## My process
