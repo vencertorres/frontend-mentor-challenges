@@ -1,0 +1,151 @@
+:root {
+  --color-accent-200: hsl(240, 5%, 91%);
+  --color-accent-400: hsl(238, 29%, 16%);
+  --color-accent-700: hsl(14, 88%, 65%);
+  --color-gradient-400: hsl(240, 73%, 65%);
+  --color-gradient-700: hsl(273, 75%, 66%);
+  --color-font-400: hsl(240, 6%, 50%);
+  --color-font-700: hsl(237, 12%, 33%);
+
+  font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    to top,
+    var(--color-gradient-400),
+    var(--color-gradient-700)
+  );
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  color: var(--color-accent-400);
+  text-align: center;
+}
+
+dl.faq button {
+  width: 100%;
+  padding: 0;
+  margin: 1em 0 1em 0;
+  border: transparent;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: left;
+}
+
+dl.faq button:hover,
+dl.faq button:focus {
+  color: var(--color-accent-700);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+dl.faq button[aria-expanded="false"]::after {
+  content: url("images/icon-arrow-down.svg");
+  float: right;
+  transition: 0.2s;
+}
+
+dl.faq button[aria-expanded="true"]::after {
+  content: url("images/icon-arrow-down.svg");
+  transform: rotate(-180deg);
+  float: right;
+  transition: 0.2s;
+}
+
+dl.faq dd {
+  max-height: 0;
+  border-bottom: thin solid var(--color-accent-200);
+  margin: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+dl.faq .desc {
+  margin: 0 1em 1em 0;
+  color: var(--color-font-400);
+}
+
+main {
+  position: relative;
+  width: 90%;
+  max-width: 74rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  background-image: url("images/bg-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  border-radius: 2rem;
+  box-shadow: 0 1rem 2rem rgb(0, 0, 0, 0.4);
+}
+
+main .hero {
+  position: absolute;
+  width: 20rem;
+  top: -9rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+main .hero-image {
+  width: 100%;
+}
+
+.hero-image-box {
+  display: none;
+}
+
+main .faq-container {
+  padding-top: 7rem;
+}
+
+@media (min-width: 40rem) {
+  h1 {
+    text-align: left;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    padding: 4rem 6rem 4rem 0;
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-size: 90%;
+    background-position: -512% 65%;
+  }
+
+  main .hero {
+    position: static;
+    flex: 1;
+    overflow: hidden;
+    transform: translateX(0);
+  }
+
+  main .hero-image {
+    transform: translateX(-16%);
+  }
+
+  .hero-image-box {
+    display: block;
+    position: absolute;
+    width: 20%;
+    transform: translate(-48%, 22%);
+    z-index: 1;
+  }
+
+  main .faq-container {
+    flex: 1;
+    padding: 0;
+  }
+}
