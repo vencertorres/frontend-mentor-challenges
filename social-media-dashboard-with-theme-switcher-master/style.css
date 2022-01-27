@@ -1,0 +1,323 @@
+:root {
+  --positive: hsl(163, 72%, 41%);
+  --negative: hsl(356, 69%, 56%);
+
+  --facebook: hsl(208, 92%, 53%);
+  --twitter: hsl(203, 89%, 53%);
+  --instagram: linear-gradient(
+    to right,
+    hsl(37, 97%, 70%),
+    hsl(329, 70%, 58%)
+  );
+  --youtube: hsl(348, 97%, 39%);
+
+  font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body.light {
+  --background: hsl(0, 0%, 100%);
+  --header: hsl(225, 100%, 98%);
+  --card: hsl(227, 47%, 96%);
+  --card-hover: hsl(232, 33%, 90%);
+  --text-secondary: hsl(228, 12%, 44%);
+  --text-primary: hsl(230, 17%, 14%);
+  --toggle: hsl(230, 22%, 74%);
+}
+
+body.dark {
+  --background: hsl(230, 17%, 14%);
+  --header: hsl(232, 19%, 15%);
+  --card: hsl(228, 28%, 20%);
+  --card-hover: hsl(228, 26%, 30%);
+  --text-secondary: hsl(228, 34%, 66%);
+  --text-primary: hsl(0, 0%, 100%);
+  --toggle: linear-gradient(
+      to right,
+      hsl(210, 78%, 56%),
+      hsl(146, 68%, 55%)
+      );
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: var(--text-secondary);
+  transition: background-color 0.3s;
+}
+
+h1 {
+  margin: 0;
+  color: var(--text-primary);
+}
+
+h1,
+h2,
+p {
+  transition: color 0.3s;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-large .username::before {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.facebook .username::before {
+  content: url("images/icon-facebook.svg");
+}
+
+.twitter .username::before {
+  content: url("images/icon-twitter.svg");
+}
+
+.instagram .username::before {
+  content: url("images/icon-instagram.svg");
+}
+
+.youtube .username::before {
+  content: url("images/icon-youtube.svg");
+}
+
+.card-small .header::after {
+  float: right;
+  vertical-align: middle;
+}
+
+.card-small.facebook .header::after {
+  content: url("images/icon-facebook.svg");
+}
+
+.card-small.facebook .header::after {
+  content: url("images/icon-facebook.svg");
+}
+
+.card-small.instagram .header::after {
+  content: url("images/icon-instagram.svg");
+}
+
+.card-small.instagram .header::after {
+  content: url("images/icon-instagram.svg");
+}
+
+.card-small.twitter .header::after {
+  content: url("images/icon-twitter.svg");
+}
+
+.card-small.twitter .header::after {
+  content: url("images/icon-twitter.svg");
+}
+
+.card-small.youtube .header::after {
+  content: url("images/icon-youtube.svg");
+}
+
+.card-small.youtube .header::after {
+  content: url("images/icon-youtube.svg");
+}
+
+.count {
+  display: block;
+  font-size: 4rem;
+  color: var(--text-primary);
+  transition: color 0.3s;
+}
+
+.count-small {
+  margin: 1rem 0 0;
+  font-size: 2.5rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.card-small .change {
+  margin: 0;
+}
+
+.positive {
+  color: var(--positive);
+}
+
+.positive::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url("images/icon-up.svg") no-repeat center;
+  margin-right: 0.25em;
+}
+
+.negative {
+  color: var(--negative);
+}
+
+.negative::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url("images/icon-down.svg") no-repeat center;
+  margin-right: 0.25em;
+}
+
+header {
+  padding: 3rem 0 10rem 0;
+  background-color: var(--header);
+  transition: background-color 0.3s;
+}
+
+.card-small .header {
+  margin-top: 0;
+}
+
+.header-container {
+  width: min(90%, 80rem);
+  margin: auto;
+}
+
+hr {
+  border: 1px solid var(--text-secondary);
+  margin: 2rem 0;
+  opacity: 0.3;
+  transition: color 0.3s;
+}
+
+main {
+  width: min(90%, 80rem);
+  margin: -8rem auto 3rem auto;
+}
+
+.main {
+  margin-bottom: 2rem;
+}
+
+.main,
+.overview .card-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.card {
+  padding: 1em;
+  background-color: var(--card);
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: var(--card-hover);
+}
+
+.card-large {
+  position: relative;
+  text-align: center;
+}
+
+.card-large::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-large.facebook::after {
+  background: var(--facebook);
+}
+
+.card-large.twitter::after {
+  background: var(--twitter);
+}
+
+.card-large.instagram::after {
+  background: var(--instagram);
+}
+
+.card-large.youtube::after {
+  background: var(--youtube);
+}
+
+.theme-toggle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background: var(--toggle);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]::before {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 19px;
+  height: 19px;
+  background-color: var(--card);
+  border-radius: 50%;
+  content: "";
+  transition: all 0.3s;
+}
+
+input[type="checkbox"]:checked::before {
+  top: 3px;
+  left: 28px;
+  background-color: #fff;
+}
+
+.card-small {
+  padding: 2rem;
+}
+
+.card-small .stats-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+@media (min-width: 768px) {
+  hr {
+    display: none;
+  }
+
+  label {
+    margin-right: 1rem;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
