@@ -6,7 +6,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [https://github.com/vencertorres/frontend-mentor-solutions/time-tracking-dashboard/](https://github.com/vencertorres/frontend-mentor-solutions/time-tracking-dashboard/)
+- Solution URL: [https://github.com/vencertorres/frontend-mentor-solutions/tree/main/time-tracking-dashboard](https://github.com/vencertorres/frontend-mentor-solutions/tree/main/time-tracking-dashboard)
 - Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/time-tracking-dashboard/dist](https://vencertorres.github.io/frontend-mentor-solutions/time-tracking-dashboard/dist)
 
 ## My process
