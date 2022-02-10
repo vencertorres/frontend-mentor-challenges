@@ -70,7 +70,7 @@ export default function Sidebar({onClick, timeframe}) {
   return (
     <Container>
       <HeadingContainer>
-        <Avatar src={images.avatar}/>
+        <Avatar src={images.avatar} alt=""/>
         <Heading>Report for <Name>Jeremy Robson</Name></Heading>
       </HeadingContainer>
       <Menu>
