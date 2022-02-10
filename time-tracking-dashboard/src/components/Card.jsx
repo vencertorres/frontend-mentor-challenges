@@ -58,7 +58,6 @@ const StyledList = styled.li`
   background-repeat: no-repeat;
   background-position: top -.5rem right 1.5rem;
   border-radius: 1rem;
-  cusor: pointer;
 
   &:hover {
     ${CardText} {
