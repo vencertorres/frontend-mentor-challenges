@@ -7,7 +7,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-zTM2XQMCY](https://www.frontendmentor.io/solutions/article-preview-component-zTM2XQMCY)
-- Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/article-preview-component/](https://vencertorres.github.io/frontend-mentor-solutions/article-preview-component/)
+- Live Site URL: [https://vencertorres.github.io/frontend-mentor-challenges/article-preview-component/](https://vencertorres.github.io/frontend-mentor-challenges/article-preview-component/)
 
 ### Built with
 

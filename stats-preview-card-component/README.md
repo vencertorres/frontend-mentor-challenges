@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-YLxdKfkF1](https://www.frontendmentor.io/solutions/stats-preview-card-component-YLxdKfkF1)
-- Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/stats-preview-card-component/](https://vencertorres.github.io/frontend-mentor-solutions/stats-preview-card-component/)
+- Live Site URL: [https://vencertorres.github.io/frontend-mentor-challenges/stats-preview-card-component/](https://vencertorres.github.io/frontend-mentor-challenges/stats-preview-card-component/)
 
 ## Useful resources
 

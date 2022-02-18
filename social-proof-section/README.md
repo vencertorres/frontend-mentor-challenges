@@ -17,7 +17,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-using-css-grid-O-HWI1iN3](https://www.frontendmentor.io/solutions/social-proof-section-using-css-grid-O-HWI1iN3)
-- Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/social-proof-section/](https://vencertorres.github.io/frontend-mentor-solutions/social-proof-section/)
+- Live Site URL: [https://vencertorres.github.io/frontend-mentor-challenges/social-proof-section/](https://vencertorres.github.io/frontend-mentor-challenges/social-proof-section/)
 
 ## Author
 

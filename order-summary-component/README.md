@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-fq98HDLM4](https://www.frontendmentor.io/solutions/order-summary-component-fq98HDLM4)
-- Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/order-summary-component/](https://vencertorres.github.io/frontend-mentor-solutions/order-summary-component/)
+- Live Site URL: [https://vencertorres.github.io/frontend-mentor-challenges/order-summary-component/](https://vencertorres.github.io/frontend-mentor-challenges/order-summary-component/)
 
 ## Author
 

@@ -7,7 +7,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-signup-form-OpOjuSL63](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-OpOjuSL63)
-- Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/intro-component-with-signup-form-master/](https://vencertorres.github.io/frontend-mentor-solutions/intro-component-with-signup-form-master/)
+- Live Site URL: [https://vencertorres.github.io/frontend-mentor-challenges/intro-component-with-signup-form-master/](https://vencertorres.github.io/frontend-mentor-challenges/intro-component-with-signup-form-master/)
 
 ## My process
 

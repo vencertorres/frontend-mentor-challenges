@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-component-w0mxsOapb](https://www.frontendmentor.io/solutions/3column-preview-card-component-w0mxsOapb)
-- Live Site URL: [https://vencertorres.github.io/frontend-mentor-solutions/3-column-preview-card-component/](https://vencertorres.github.io/frontend-mentor-solutions/3-column-preview-card-component/)
+- Live Site URL: [https://vencertorres.github.io/frontend-mentor-challenges/3-column-preview-card-component/](https://vencertorres.github.io/frontend-mentor-challenges/3-column-preview-card-component/)
 
 ## Author
 
