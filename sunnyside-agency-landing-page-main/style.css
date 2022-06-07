@@ -42,7 +42,7 @@ img {
   display: block;
 }
 
-.main-nav {
+#main-nav {
   position: absolute;
   z-index: 9999;
   display: flex;
@@ -87,21 +87,21 @@ img {
   display: none;
 }
 
-.main-nav ul {
+#main-nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.main-nav li {
+#main-nav li {
   padding: 1em 0;
 }
 
-.main-nav a {
+#main-nav a {
   color: var(--gray-300);
 }
 
-.main-nav .contact-link {
+#main-nav .contact-link {
   padding: 1em 1.5em;
   border-radius: 2em;
   background-color: var(--yellow-100);
@@ -392,17 +392,17 @@ svg {
     display: none;
   }
 
-  .main-nav ul {
+  #main-nav ul {
     display: flex;
     gap: 1em;
     justify-content: space-between;
   }
 
-  .main-nav a {
+  #main-nav a {
     color: var(--white);
   }
 
-  .main-nav .contact-link {
+  #main-nav .contact-link {
     background-color: var(--white);
   }
 
