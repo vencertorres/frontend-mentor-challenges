@@ -7,7 +7,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [https://github.com/vencertorres/frontend-mentor-challenges/tree/main/sunnyside-agency-landing-page-main](https://github.com/vencertorres/frontend-mentor-challenges/tree/main/sunnyside-agency-landing-page-main)
+- Solution URL: [https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-uiPBYUaWFa](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-uiPBYUaWFa)
 - Live Site URL: [https://vencertorres.github.io/frontend-mentor-challenges/sunnyside-agency-landing-page-main/](https://vencertorres.github.io/frontend-mentor-challenges/sunnyside-agency-landing-page-main/)
 
 ## My process
